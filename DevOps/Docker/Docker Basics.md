@@ -1,7 +1,7 @@
 
----
+
 # Introduction of Docker 
----
+
 ## What Are Containers?
 
 - **Containers** are lightweight, standalone environments to run applications.
@@ -23,7 +23,7 @@
 - **Resource Efficiency**: Lightweight on system resources.
 
 ##  Key Concepts
----
+
  - **Image**          
 	 - A blueprint/template to create a container. 
 
@@ -36,8 +36,9 @@
  - **Docker Hub**  
 	 - A cloud repository for sharing images. 
 
-#  Installing and Setup Docker
 ---
+#  Installing and Setup Docker
+
 - Visit ➡️ [Docker Docs](http://docs.docker.com/)
 - Download Docker for your platform (Windows / Mac / Linux).
 
