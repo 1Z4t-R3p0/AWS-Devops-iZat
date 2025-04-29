@@ -53,7 +53,7 @@
 
 ### For Linux ;
 
-> Download Methods
+> Downloading Methods
 - Install using apt repo: 
 
 ```bash
