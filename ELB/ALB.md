@@ -1,5 +1,5 @@
 
-## **Application Load Balancer (ALB)** 
+# **ELB - Application Load Balancer** 
 
 - Routes requests to `/foo` → sends them to **EC2 instance A**
     
