@@ -10,7 +10,10 @@ docker run redis
 ```
 
 - Pulls and runs a **specific version** (`4.0`) of the `redis` image.
-`docker run redis:4.0`
+  
+```
+docker run redis:4.0
+```
 
 ---
 
