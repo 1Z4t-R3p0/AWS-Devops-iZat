@@ -16,6 +16,7 @@ It helps:
 
 ---
 
+
 ## ☁️ Load Balancing with AWS
 
 Amazon Web Services (AWS) offers **Elastic Load Balancing (ELB)**, a fully managed load balancing service that includes:
@@ -30,6 +31,7 @@ Amazon Web Services (AWS) offers **Elastic Load Balancing (ELB)**, a fully manag
 These services make it easy to distribute traffic automatically across multiple **Availability Zones**, improving application availability and fault tolerance.
 
 ---
+
 
 ## 🔀 What is an Application Load Balancer (ALB)?
 
@@ -60,6 +62,7 @@ User → ALB (HTTP) → EC2-Foo (/foo)  → EC2-Bar (/bar)
 
 ---
 
+
 ## ⚡ What is a Network Load Balancer (NLB)?
 
 A **NLB** works at the **transport layer (TCP/UDP)** and is designed for:
@@ -71,6 +74,7 @@ A **NLB** works at the **transport layer (TCP/UDP)** and is designed for:
 - Static IP support
 
 NLB forwards TCP connections directly to EC2 instances, making it ideal for applications that need extreme performance or don't require HTTP-level features.
+
 
 ### ✅ Example Setup:
 
@@ -92,6 +96,7 @@ User → NLB (TCP) → EC2-A or EC2-B
 ```
 
 ---
+
 
 ## Testing & Validation
 
