@@ -60,7 +60,7 @@ docker images
 
  **Remove a Docker Image**
 ```dockerfile 
-docker rmi <image_id>
+docker rmi <image_id>  ## Use -f for Force Remove 
 ```
 
 **Stop a Running Container**
@@ -71,11 +71,6 @@ docker stop <container_id_or_name>
  **Remove a Container**
 ```bash
 docker rm <container_id_or_name>
-```
-
- **Remove an Image**
-```bash
-docker rmi <image_name>
 ```
 
  **Download (Pull) an Image**
