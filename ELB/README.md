@@ -4,7 +4,7 @@
 
 A **Load Balancer** is a networking solution that automatically distributes incoming application traffic across multiple targets (like EC2 instances) to ensure **high availability**, **fault tolerance**, and **scalability**.
 
-![[Pasted image 20250507192658.png]]
+![Pasted image 20250507192658](https://github.com/user-attachments/assets/39f1aebb-0c5c-421f-9c14-f5ab22d05a35)
 
 It helps:
 
