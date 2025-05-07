@@ -1,5 +1,5 @@
 
-# **ELB - Application Load Balancer** 
+## **Application Load Balancer (ALB)** 
 
 - Routes requests to `/foo` → sends them to **EC2 instance A**
     
@@ -12,7 +12,7 @@
 
 The **ALB listener rules** are doing the path-based routing. The EC2s are just serving basic HTML from Apache.
 
-![Pasted image 20250507111759](https://github.com/user-attachments/assets/88eda27b-584f-4e66-80b9-efa386365528)
+![[Pasted image 20250507111759.png]]
 
 ---
 ### Steps 
@@ -47,15 +47,21 @@ The **ALB listener rules** are doing the path-based routing. The EC2s are just s
 
 ```sh
 #!/bin/bash
-apt update -y apt install -y apache2
-echo "<h1>This is FOO server</h1>" | sudo tee /var/www/html/index.html 
+apt update -y 
+apt install -y apache2
+sudo mkdir -p /var/www/html/foo
+echo "<h1>This is FOO server</h1>" | sudo tee /var/www/html/foo/index.html 
 systemctl restart apache2
 ```
 
->For the **`bar` instance**, change the echo line:
-
+>For the **`bar` instance**,
 ```sh
-echo "<h1>This is BAR server</h1>" | sudo tee /var/www/html/index.html 
+#!/bin/bash
+apt update -y 
+apt install -y apache2
+sudo mkdir -p /var/www/html/bar
+echo "<h1>This is BAR server</h1>" | sudo tee /var/www/html/bar/index.html 
+systemctl restart apache2
 ```
 
 10. Security group: Use the group that allows **port 80**
