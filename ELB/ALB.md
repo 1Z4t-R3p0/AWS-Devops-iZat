@@ -12,7 +12,7 @@
 
 The **ALB listener rules** are doing the path-based routing. The EC2s are just serving basic HTML from Apache.
 
-![[Pasted image 20250507111759.png]]
+![Pasted image 20250507111759](https://github.com/user-attachments/assets/a8eebfe6-81f5-4f89-a960-c935d8ab2649)
 
 ---
 ### Steps 
