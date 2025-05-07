@@ -7,7 +7,7 @@
 User → ALB (HTTP) → EC2 Instances in 2 AZs
 ```
 
-![[Pasted image 20250506194645.png]]
+![Pasted image 20250506194645](https://github.com/user-attachments/assets/39d0d657-30d8-4c95-99e5-b03b8b703de0)
 
 ---
 
