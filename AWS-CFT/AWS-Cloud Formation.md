@@ -33,7 +33,7 @@ Outputs:
 
 ```
 
-#### ✅AWSTemplateFormatVersion
+#### ✅ AWSTemplateFormatVersion
 
 ```yml
 AWSTemplateFormatVersion: 'YYYY-MM-DD'
@@ -43,7 +43,7 @@ AWSTemplateFormatVersion: 'YYYY-MM-DD'
     
 - Always use `'2010-09-09'` (most common and current version).
 
-#### ✅Description
+#### ✅ Description
 
 ```yml
 Description: >
@@ -55,7 +55,7 @@ Description: >
 - Helps other team members or users understand the purpose.
 
 
-#### ✅Metadata
+#### ✅ Metadata
 
 ```yml
 Metadata:
