@@ -1,7 +1,5 @@
-
-
 # Introduction to Docker 
----
+
 ## What Are Containers?
 
 - **Containers** are lightweight, standalone environments to run applications.
