@@ -1,7 +1,7 @@
 #  Ansible Installation & First Automation Guide (Linux Edition)
 
 
-## 1.Installation of Ansible:
+##                                                 1.Installation of Ansible:
 
 - ### On Ubuntu / Debian:
 
