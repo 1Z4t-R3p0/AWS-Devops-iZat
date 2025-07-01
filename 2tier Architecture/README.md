@@ -190,6 +190,8 @@ if (isset($_GET["logout"])) {
 ```
 ## ✅ To Verify
 
+> Login into Mysql and check the table
+
 ```sql
 use LoginDB;
 select * from usersl
