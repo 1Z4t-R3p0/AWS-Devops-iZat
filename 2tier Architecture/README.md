@@ -194,7 +194,7 @@ if (isset($_GET["logout"])) {
 
 ```sql
 use LoginDB;
-select * from usersl
+select * from users;
 ```
 
 ---
