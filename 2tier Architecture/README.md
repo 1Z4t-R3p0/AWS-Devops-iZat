@@ -188,6 +188,12 @@ if (isset($_GET["logout"])) {
 </body>
 </html>
 ```
+## ✅ To Verify
+
+```sql
+use LoginDB;
+select * from usersl
+```
 
 ---
 ## 📁 Folder Structure
