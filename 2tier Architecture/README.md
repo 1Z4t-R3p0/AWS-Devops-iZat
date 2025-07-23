@@ -61,6 +61,7 @@ sudo apt update -y
 sudo apt install apache2 php libapache2-mod-php php-mysql -y
 sudo systemctl start apache2
 sudo systemctl enable apache2
+sudo rm /var/www/html/index.html
 ```
 
 ---
@@ -186,6 +187,14 @@ if (isset($_GET["logout"])) {
 
 </body>
 </html>
+```
+## ✅ To Verify
+
+> Login into Mysql and check the table
+
+```sql
+use LoginDB;
+select * from users;
 ```
 
 ---

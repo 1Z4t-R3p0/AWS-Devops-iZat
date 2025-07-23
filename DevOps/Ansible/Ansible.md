@@ -1,6 +1,12 @@
 #  Ansible Installation & First Automation Guide (Linux Edition)
 
+<<<<<<< HEAD
 zz
+=======
+---
+# 1.Installation of Ansible 
+
+>>>>>>> c381283a854835a99dae75b1c43fc35b6ba5c410
 ### On Ubuntu / Debian:
 
 ```sh
@@ -13,7 +19,11 @@ sudo apt install -y ansible
 > Verify: `ansible --version`
 
 ---
+<<<<<<< HEAD
 ### Update Ansible to the Latest Version (All Distros)
+=======
+#### Update Ansible to the Latest Version (All Distros)
+>>>>>>> c381283a854835a99dae75b1c43fc35b6ba5c410
 
 > If you want the **latest version** via `pip`:
 
@@ -33,7 +43,11 @@ Then verify with version;
 ansible --version
 ```
 
+<<<<<<< HEAD
 ### Uninstall or Reinstall Ansible:
+=======
+#### Uninstall or Reinstall Ansible:
+>>>>>>> c381283a854835a99dae75b1c43fc35b6ba5c410
 
 ```sh
 # To remove Ansible (apt):
@@ -43,7 +57,11 @@ sudo apt remove --purge ansible
 pip3 uninstall ansible
 ```
 ---
+<<<<<<< HEAD
 ## Setup SSH Access (Linux Targets)
+=======
+### Setup SSH Access (Linux Targets)
+>>>>>>> c381283a854835a99dae75b1c43fc35b6ba5c410
 #### On Control Node:
 
 >Generate SSH Key (on Control Node):
@@ -68,6 +86,11 @@ nano ~/.ssh/authorized_keys
 ```
 
 ---
+<<<<<<< HEAD
+=======
+
+# 2.First Automation  
+>>>>>>> c381283a854835a99dae75b1c43fc35b6ba5c410
 ## Create an Inventory File
 
 Create a inventory file;
