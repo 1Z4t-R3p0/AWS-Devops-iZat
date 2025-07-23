@@ -1,9 +1,7 @@
 #  Ansible Installation & First Automation Guide (Linux Edition)
 
-
-## 1.Installation of Ansible:
-
-- ## On Ubuntu / Debian:
+zz
+### On Ubuntu / Debian:
 
 ```sh
 sudo apt update
@@ -15,7 +13,7 @@ sudo apt install -y ansible
 > Verify: `ansible --version`
 
 ---
-- ## Update Ansible to the Latest Version (All Distros)
+### Update Ansible to the Latest Version (All Distros)
 
 > If you want the **latest version** via `pip`:
 
@@ -35,7 +33,7 @@ Then verify with version;
 ansible --version
 ```
 
-- ## Uninstall or Reinstall Ansible:
+### Uninstall or Reinstall Ansible:
 
 ```sh
 # To remove Ansible (apt):
@@ -45,8 +43,8 @@ sudo apt remove --purge ansible
 pip3 uninstall ansible
 ```
 ---
-- ## Setup SSH Access (Linux Targets)
-### On Control Node:
+## Setup SSH Access (Linux Targets)
+#### On Control Node:
 
 >Generate SSH Key (on Control Node):
 ```sh
@@ -58,7 +56,7 @@ ssh-keygen
 ssh-copy-id ubuntu@<target-ip>
 ```
 
-### Or manually:
+#### Or manually:
 
 ```sh
 cat ~/.ssh/id_rsa.pub
@@ -70,9 +68,6 @@ nano ~/.ssh/authorized_keys
 ```
 
 ---
-
-## First Automation using Linux
-
 ## Create an Inventory File
 
 Create a inventory file;
@@ -92,12 +87,12 @@ nano inventory
 ---
 ## Run an Ad Hoc Command
 
-### ✅ Ping Test:
+#### ✅ Ping Test:
 ```sh
 ansible -i inventory all -m ping 
 ```
 
-### ✅ Create a File on Remote Host:
+#### ✅ Create a File on Remote Host:
 ```sh
 ansible -i inventory all -m shell -a "touch NewFile"
 ```
@@ -119,7 +114,7 @@ A **playbook** is a **YAML file** where you define **what to automate**.
     
 - **How** to run them (using modules, variables, etc.)
 
-## 📄 Sample Playbook: `playbook.yml`
+### 📄 Sample Playbook: `playbook.yml`
 
 ```yml
 - name: Install and Start Nginx
