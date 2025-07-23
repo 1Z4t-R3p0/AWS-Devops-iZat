@@ -49,4 +49,5 @@
 	- Staged
 	- Committed
 
-![[Git-Workflow.jpg]]
+![Git-Workflow](https://github.com/user-attachments/assets/7fa87ec1-0626-445c-a350-584f7d8e32e9)
+
