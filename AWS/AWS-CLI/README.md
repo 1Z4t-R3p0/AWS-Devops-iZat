@@ -1,6 +1,5 @@
 
----
-## Installation:
+### Installation:
 
 ---
 ### 🪟 Windows
