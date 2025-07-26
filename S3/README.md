@@ -1,7 +1,5 @@
 
-## AWS S3 – Cloud Storage Made Simple
-
-----
+# AWS S3 – Cloud Storage Made Simple
 
 ### What is AWS S3?
 
@@ -33,7 +31,7 @@
 
 ---
 
-## 🧾 Object Key – File Path System
+### 🧾 Object Key – File Path System
 
 - Each file you upload is given a unique **“object key”**.
     
