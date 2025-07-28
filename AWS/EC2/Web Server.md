@@ -13,6 +13,8 @@
 >[!Definition]
 >A **Security Group** is like a **virtual firewall** in AWS that controls **inbound and outbound traffic** to your EC2 instances.
 
+![Uploading image.png…]()
+
 #### Why Do We Need Them?
 
 - To control **who can access** your instance.
