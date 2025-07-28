@@ -77,7 +77,9 @@ sudo nano /var/www/html/index.html
 ---
 # What is an IP Address?
 
-> **ℹ️ Definition:** An IP address is a unique number assigned to every device on the Internet.
+<div style="border-left: 4px solid #007ACC; padding: 0.5em;">
+  <strong>Definition:</strong> An IP address is a unique number assigned to every device on the Internet.
+</div>
 
 ####  Types of IP in AWS:
 
