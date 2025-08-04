@@ -45,7 +45,7 @@ Save this file as `Dockerfile` on your local machine (Windows, Linux, or Mac).
 ---
  **Docker Build Command**
 ```
-docker build -t Apache-Ubuntu .
+docker build -t apache-ubuntu .
 ```
 
 - `-t` is used to tag or name the image.
