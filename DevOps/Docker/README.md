@@ -77,7 +77,8 @@ sudo apt-get update
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-
+---
+OR
 - `.deb` download [link](https://desktop.docker.com/linux/main/amd64/190950/docker-desktop-amd64.deb?_gl=1*1mauz4z*_gcl_au*MTIyMTcxMDYyNC4xNzQ0NzA4NTU4*_ga*MTEyODg3MTc3LjE3NDA3NTA2OTU.*_ga_XJWPQMJYHQ*MTc0NTkwMzcwMy43LjEuMTc0NTkwNDQwNC42MC4wLjA.)
 
 - #####  Installing the `.deb` file 
@@ -85,7 +86,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo apt-get update
 sudo apt-get install ./docker-desktop-amd64.deb
 ```
-
+---
 - ##### Verify that the installation is successful by running the `hello-world` image:
 ```sh
 sudo docker run hello-world
