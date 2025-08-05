@@ -18,6 +18,7 @@ docker ps
 ```bash
 docker ps -a
 ```
+![Uploading image.png…]()
 
 #### Dockerfile : 
  ```dockerfile
