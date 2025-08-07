@@ -18,7 +18,7 @@ docker ps
 ```bash
 docker ps -a
 ```
-![Uploading image.png…]()
+<img width="615" height="316" alt="Docker flowchart" src="https://github.com/user-attachments/assets/ea5396d9-7bc6-4e27-9881-99b8d81aa637" />
 
 #### Dockerfile : 
  ```dockerfile
