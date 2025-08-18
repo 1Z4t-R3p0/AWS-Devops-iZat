@@ -47,21 +47,21 @@ The **ALB listener rules** are doing the path-based routing. The EC2s are just s
 
 ```sh
 #!/bin/bash
-apt update -y 
-apt install -y apache2
+sudo apt update -y 
+sudo apt install -y apache2
 sudo mkdir -p /var/www/html/foo
 echo "<h1>This is FOO server</h1>" | sudo tee /var/www/html/foo/index.html 
-systemctl restart apache2
+sudo systemctl restart apache2
 ```
 
 >For the **`bar` instance**,
 ```sh
 #!/bin/bash
-apt update -y 
-apt install -y apache2
+sudo apt update -y 
+sudo apt install -y apache2
 sudo mkdir -p /var/www/html/bar
 echo "<h1>This is BAR server</h1>" | sudo tee /var/www/html/bar/index.html 
-systemctl restart apache2
+sudo systemctl restart apache2
 ```
 
 10. Security group: Use the group that allows **port 80**
