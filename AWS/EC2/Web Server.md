@@ -10,7 +10,7 @@
 ---
 # Security Groups 
 
->[!Definition]
+> [!Definition]
 >A **Security Group** is like a **virtual firewall** in AWS that controls **inbound and outbound traffic** to your EC2 instances.
 
 <img width="512" height="261" alt="image" src="https://github.com/user-attachments/assets/97bcea49-bdd7-406c-b2f8-44477e8e0481" />
