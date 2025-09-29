@@ -21,7 +21,7 @@ sudo apt install -y ansible
 
 ```sh
 sudo apt install -y python3-pip  # or yum install python3-pip
-pip3 install --user ansible
+pip3 install --user ansible --break-system-packages
 ```
 
 create path of it :
