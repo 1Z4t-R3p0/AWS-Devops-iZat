@@ -34,7 +34,7 @@
 ---
 # What is Apache?
 
->[!Definition]
+> [!NOTE]
 >**Apache** is a **free, open-source web server** software used to serve web pages over the internet.
 
 #### Why Use Apache?
